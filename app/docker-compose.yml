@@ -1,0 +1,8 @@
+services:
+  web-serve:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    
